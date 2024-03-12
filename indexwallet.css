@@ -1,0 +1,72 @@
+body {
+    background-color: #2b2929;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    color: #f8f9fa;
+}
+
+.img-thumbnail {
+  display: block;
+  margin: 50px auto 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-top: 20px; /* Espacio entre la imagen y el formulario */
+  text-align: center; /* Alinear texto al centro */
+}
+
+#loginForm {
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+}
+
+.btn-container {
+  margin-top: 20px; /* Espacio entre el formulario y el botón */
+}
+
+.btn-primary {
+  background-color: #808080; /* Color gris para el botón */
+  border-color: #808080; /* Borde del mismo color que el fondo */
+}
+
+.btn-primary:hover {
+  background-color: #6c757d; /* Color gris oscurecido al pasar el ratón */
+  border-color: #6c757d; /* Borde oscurecido al pasar el ratón */
+}
+
+
+/* Estilo para los campos de usuario y contraseña */
+#username,
+#password {
+  width: 100%;
+  max-width: 300px; /* Ancho máximo de los campos */
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  margin: 0 auto; /* Centrar los campos horizontalmente */
+}
